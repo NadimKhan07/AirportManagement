@@ -1,0 +1,109 @@
+body.login-body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to bottom, #004e92, #000428);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0 0 25px rgba(0, 150, 255, 0.3);
+    text-align: center;
+}
+
+.logo-container .logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4dd0e1;
+    cursor: pointer;
+}
+
+.logo-container h1 {
+    margin: 0.5rem 0;
+    font-size: 1.6rem;
+    color: #e0f7fa;
+}
+
+.logo-container p {
+    font-size: 0.9rem;
+    color: #b2ebf2;
+}
+
+.tab-btn {
+    background: transparent;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: #b2ebf2;
+    font-weight: bold;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+}
+
+.tab-btn.active {
+    border-color: #4dd0e1;
+}
+
+.auth-form {
+    margin-top: 1rem;
+}
+
+.auth-form h2 {
+    margin-bottom: 1rem;
+    color: #b2ebf2;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+input::placeholder {
+    color: #e0f7fa;
+}
+
+.btn-primary {
+    background: #00bcd4;
+    color: #fff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #00acc1;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #b2ebf2;
+    text-decoration: none;
+}
+
+.message-container {
+    margin-top: 1rem;
+    color: #ffcccb;
+}

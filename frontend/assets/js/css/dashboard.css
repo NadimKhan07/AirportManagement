@@ -1,0 +1,137 @@
+/* dashboard.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #dfe4ea, #ced6e0);
+    color: #2f3542;
+}
+
+.navbar {
+    background: #747d8c;
+    padding: 1rem;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo {
+    background: #57606f;
+    padding: 0.5rem 0.8rem;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-menu .nav-link {
+    margin-left: 1rem;
+    color: #f1f2f6;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.nav-menu .nav-link:hover,
+.nav-menu .nav-link.active {
+    background: #2f3542;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.dashboard-header h1 {
+    font-size: 2rem;
+    margin-bottom: 0.3rem;
+}
+
+.btn-primary {
+    background: #57606f;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #2f3542;
+}
+
+.dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.dashboard-card {
+    background: #f1f2f6;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2f3542;
+}
+
+.stat-text {
+    font-size: 1.2rem;
+    color: #2f3542;
+}
+
+.section-header h2 {
+    margin-bottom: 1rem;
+}
+
+.flights-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.flights-table th,
+.flights-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.flights-filters input,
+.flights-filters select {
+    padding: 0.6rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.modal {
+    background: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 600px;
+    margin: auto;
+}
